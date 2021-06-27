@@ -1,4 +1,10 @@
+%%raw("import './App.css'")
+
 open Render
 
 @react.component
-let make = () => <h1>{`My app`->s}</h1>
+let make = () => {
+  <div className="prose">
+    <h1>{`My app`->s}</h1>
+  </div>
+}
